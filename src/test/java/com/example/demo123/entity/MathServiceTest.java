@@ -21,4 +21,18 @@ class MathServiceTest {
 
 
     }
+
+    @Test
+    void testPerformAddition1() {
+
+        Calculator calculator = mock(Calculator.class);
+        when(calculator.add(2,2)).thenReturn(1);
+
+        MathService mathService = new MathService(calculator);
+
+        int res = mathService.add(2,2);
+        assertEquals(1,res);
+
+
+    }
 }
