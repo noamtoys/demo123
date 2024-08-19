@@ -11,7 +11,7 @@ public class CalculatorTest {
    public void addTest()
    {
        Calculator calculator = new Calculator();
-       int res = calculator.add(22,24);
+       int res = calculator.add(22,4);
        assertEquals(26 , res);
    }
 
