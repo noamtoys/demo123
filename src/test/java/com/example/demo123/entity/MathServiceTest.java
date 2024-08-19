@@ -17,7 +17,7 @@ class MathServiceTest {
         MathService mathService = new MathService(calculator);
 
         int res = mathService.add(2,2);
-        assertEquals(8,res);
+        assertEquals(7,res);
 
 
     }
